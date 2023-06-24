@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8"> 
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewpoint" content="width=device-width, intital-scale=1.0" >
+
+            <title>Sign up</title>
+
+            <link rel="stylesheet" href="./style.css">
+            
+    
+    </head>
+
+    <body>
+       
+        <!-- ----------------Navbar----------- -->
+
+        <nav>
+            <a href="">Header</a>
+
+                <div class="profile">
+                    <a href="">Sign Up</a>
+                    <a href="">Profile</a>
+                </div>
+            </ul>
+        </nav>
+
+
+        <!-- ----------------form----------- -->
+
+        <div class="main-parent">
+            <div class="form-wrap">
+                <form id="user-form" action="profile.html" >
+
+                    <h1 class="form-heading">Sign Up</h1>
+       
+                    <div class="single-input">
+                        <input type="text" placeholder="Full Name" id="fname" required><br>
+                    </div>
+
+
+                    <div class="single-input">
+                        <input type="email" placeholder="Email" id="email" required><br>
+                    </div>
+
+
+                   <div class="single-input">
+                        <input type="password" placeholder="Password" id="password" required><br>
+                   </div>
+                   
+                   <div class="single-input">
+                        <input type="password" placeholder="Confirm Password" id="cpassword" required><br>
+                   </div>
+
+                   <input type="submit" value="submit" onclick="getTxt()" class="Submit-button"/>              
+                </form>
+                <!-- <div id="hello"></div> -->
+            </div>
+        </div>
+       
+        <!-- -----------CDN for socket io------------ -->
+        <!-- <script src="./script.js"></script> -->
+    </body>
+
+</html>

@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row; 
+    gap: 80%;
+    width:100%;
+    font-size:  30px;
+    border: 1px solid white;
+    padding-top: 9px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+}
+
+.profile{
+    display: inline-block;
+    gap: 30px;
+}
+
+
+
+/* ------------form------------ */
+
+.form-heading{
+    font-size: 60px;
+    margin-left: 280px;
+}
+
+
+#user-form{
+    color: white;
+    /* text-align: center; */
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+
+.single-input{
+    height:20px;
+    height: 36px;
+    width:100%;
+    margin-left: 280px;
+    gap: 0;
+}
+
+input{
+    width:60%;
+    height: 36px;
+    background-color: black;
+    color: white;
+}
+
+input:hover{
+    outline-style: none;
+}
+
+
+.Submit-button{
+    margin-top: 9%;
+    margin-left: 290px;
+    height: 40px;
+    width: 21%;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+
+#name{
+    color: white;
+}
+#logout-button{
+    margin-top: 9%;
+    margin-left: 290px;
+    height: 40px;
+    width: 21%;
+    text-align: center;
+    background-color: white;
+}
+#logout{
+    height: 40px;
+    width: 10%;
+    color: black;
+}
+#result{
+    color:white;
+}
+#pemail{
+    color:white;
+}

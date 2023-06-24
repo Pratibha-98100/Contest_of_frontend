@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8"> 
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewpoint" content="width=device-width, intital-scale=1.0" >
+
+            <title>Profile</title>
+
+            <link rel="stylesheet" href="./style.css">
+    
+    </head>
+
+    <body>
+
+        <!-- ----------------Navbar----------- -->
+
+        <nav>
+            <a href="">Header</a>
+
+                <div class="profile">
+                    <a href="">Sign Up</a>
+                    <a href="">Profile</a>
+                </div>
+            </ul>
+        </nav>
+
+
+        <!-- ----------------Profile----------- -->
+        <h1>Profile</h1>
+        <p id="name">Full Name:<span id="result"></span></p>
+        <p>Email:<span id="pemail"></span></p>
+        <p>Password:<span id="ppassword"></span></p>
+
+       
+        <!-- ----------------log out----------- -->
+        <div id="logout-button">
+            <a href="./index.html"  id="logout">Logout</a>
+       </div> 
+       
+        <!-- -----------CDN for socket io------------ -->
+        <script >
+            document.getElementById("result").innerHTML=localStorage.getItem("passValue");
+            document.getElementById("pemail").innerHTML=localStorage.getItem("Email");
+            document.getElementById("ppassword").innerHTML=localStorage.getItem("Password");
+        </script>
+    </body>
+
+</html>
